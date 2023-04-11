@@ -89,6 +89,15 @@ html {
     white-space: nowrap;
     overflow: hidden;
     box-shadow: 2px 2px 6px 0px #8a8a8aba;
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    }
+
+    @keyframes anim {
+        from{width: 306px;}
+        to{width: 406px;}
     }
     
     header {
